@@ -1,0 +1,26 @@
+{
+    "name": "michaeld555/nfe-parser",
+    "description": "A simple nfe manager to create danfe file",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "keywords": [
+        "laravel",
+        "danfe",
+        "nfe",
+        "pdf"
+    ],
+    "authors": [
+        {
+            "name": "Michael Douglas",
+            "email": "usermich999@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Michaeld555\\SecureShell\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
