@@ -1,6 +1,6 @@
 {
     "name": "michaeld555/nfe-parser",
-    "description": "A simple nfe manager to create danfe file",
+    "description": "A simple nfe manager to create fiscal danfe files",
     "type": "library",
     "license": "GPL-3.0-or-later",
     "keywords": [
@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Michaeld555\\SecureShell\\": "src/"
+            "Michaeld555\\": "src/"
         }
     },
     "require": {
