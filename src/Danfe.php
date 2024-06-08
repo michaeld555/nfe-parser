@@ -13,15 +13,29 @@ class Danfe {
     public static function create(?string $file, ?string $output)
     {
 
-        $py = __DIR__.'/generator.py';
+        $isWin = strtoupper(substr(PHP_OS, 0, 3)) === 'WIN';
+
+        $py = __DIR__.'/python/win/python.exe';
+
+        $converter = __DIR__.'/generator.py';
 
         $file = $file;
 
         $output = $output;
 
-        $command = escapeshellcmd("python $py $file $output");
+        if ($isWin) {
+
+            $command = escapeshellcmd("$py $converter $file $output");
+
+        } else {
+
+            $command = escapeshellcmd("python3 $converter $file $output");
+
+        }
 
         $output = shell_exec($command);
+
+        print($output);
 
     }
 
