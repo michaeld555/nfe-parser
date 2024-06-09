@@ -2,8 +2,6 @@
 
 namespace Michaeld555\Providers;
 
-use Illuminate\Support\Str;
-
 class FiscalProvider {
     
     public static function isWin(): bool

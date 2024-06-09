@@ -1,14 +1,17 @@
 {
     "name": "michaeld555/nfe-parser",
-    "description": "A simple nfe manager to create fiscal danfe files",
+    "description": "A simple library to create fiscal danfe files",
     "type": "library",
-    "license": "GPL-3.0-or-later",
+    "license": "MIT",
     "keywords": [
         "laravel",
+        "php",
         "danfe",
         "nfe",
-        "pdf"
+        "pdf",
+        "fiscal"
     ],
+    "homepage": "https://github.com/michaeld555/nfe-parser",
     "authors": [
         {
             "name": "Michael Douglas",
@@ -22,5 +25,7 @@
     },
     "require": {
         "php": ">=8.0"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

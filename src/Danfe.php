@@ -2,9 +2,6 @@
 
 namespace Michaeld555;
 
-require __DIR__ . '/../vendor/autoload.php';
-
-use Illuminate\Support\Str;
 use Michaeld555\Providers\FiscalProvider;
 
 class Danfe extends FiscalProvider {
